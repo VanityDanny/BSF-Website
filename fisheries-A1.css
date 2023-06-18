@@ -1,0 +1,406 @@
+﻿body {
+	font-family: Helvetica;
+	background-image: url("assets/BSF.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+        position: absolute;
+}
+
+p,li {
+	font-size: 1vw;
+}
+
+li {
+	margin: 1%;
+}
+
+.logo {
+	margin-left: 5%;
+	margin-top: 1%;
+	max-width: 6%;
+	margin-left: 2%;
+}
+
+
+div.body {
+	background-color: #FFFFFF80;
+}
+
+.bread {
+	max-width: 100%;
+	backdrop-filter: blur(5px);
+	border-bottom: solid white 1px;
+	padding-bottom: 1%;
+}
+
+#bread {
+	border-bottom: solid white 1px;
+	padding-bottom: 1%;
+}
+
+.items {
+	margin-top: -56%;
+}
+
+.marg {
+    padding-left: 10%;
+    margin-top: 5%;
+}
+
+section {
+	background-color: #EFEFEF;
+	border: white 5px;
+	border-radius: 8px;
+	margin-left: 5%;
+	margin-right: 5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+	padding: 1%;
+    max-width: 100%;  
+}
+
+.nav {
+	font-family: Copperplate gothic light;
+	font-size: 1vw;
+	color: darkblue;
+}
+
+#bt {
+	font-family: Copperplate gothic light;
+	font-size: 1vw;
+	color: darkblue;
+	margin-bottom: 50px;
+	border: solid 1px darkblue;
+	padding: 20px;
+	margin-left: 45%;
+	margin-right: 45%;
+	backdrop-filter: blur(5px);
+	text-align: center;
+}
+
+a:link{
+	color: darkblue;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:active{
+	color: Darkblue;
+	background-color: transparent;
+	text-decoration: none;
+	
+}
+
+a:visited{
+    color: Darkblue;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:hover{
+    color: blue;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+.foot {
+	  background-image: url("assets/smaller stellar.png");
+	  background-repeat: no-repeat;
+	  background-size: 3.5% 95%;
+	  background-position-y: center; 
+      background-position-x: 2%;
+	  margin-left: 2%;
+}
+
+footer {
+	 max-width: 100%;
+	 border-top: solid white 1px;
+	 backdrop-filter: blur(5px);
+	 padding-bottom: 0.01%;
+}
+
+h4 {
+	 margin-left: 6%;
+	 font-size: 1vw;
+}
+
+
+header.top {
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 1.3%;
+	  padding-left: 3%;
+	  padding-right: 35%;
+	  font-size: 0.9vw;
+      position: absolute;
+	  top: 1px;
+	  color: darkblue;
+	  font-family: Copperplate gothic light;
+}
+
+header.intro {
+	  font-size: 1.5vw;
+          margin-top: 10%;
+	  padding-top: 3%;
+	  padding-bottom: 3%;
+	  padding-left: 40%;
+	  padding-right: 10%;
+	  background-image: url("assets/BSF Logo.png");
+	  background-size: 23% 100%;
+	  backdrop-filter: blur(5px);
+	  background-repeat: no-repeat;
+	  background-position-y: center; 
+      background-position-x: 20%;
+}
+
+h1.q {
+	  font-size: 1.8vw;
+	  border-bottom: none;
+	  text-align: left;
+}
+
+h1.intro {
+	  border-bottom: none;
+	  text-align: left;
+	  margin-bottom: -10px;
+}
+
+#aa {
+	  margin-bottom: -20px;
+}
+
+#top {
+	border-bottom: transparent;
+}
+
+div.content {
+      Padding-bottom: 50px;
+}
+
+
+h1.content {
+      color: darkblue;
+      border-bottom: solid darkblue 5px;
+      padding-left: 5px;
+      font-family: Copperplate Gothic Light;
+	  text-align: left;
+}
+
+h1.MV {
+      color: darkblue;
+      border-bottom: solid darkblue 5px;
+      padding-left: 5px;
+      font-family: copperplate gothic light;
+	  text-align: center;
+}
+
+p.MV {
+      text-align: center;
+}
+
+div.jr {
+	  background-image: url("assets/junior.png");
+	  background-position: center;
+	  border-radius: 8px;
+	  margin: 20px;
+}
+
+p.jr {
+	  background-color: #FFA50080;
+	  padding: 50px;
+	  border-radius: 8px;
+	  font-weight: bold;
+	  font-size: 1.5vw;
+	  text-align: center;
+}
+
+div.sr {
+	  background-image: url("assets/senior.png");
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: 1632px 1232px;
+	  border-radius: 8px;
+	  margin: 20px;
+}
+
+p.sr {
+	  background-color: #008FFF80;
+	  padding: 50px;
+	  border-radius: 8px;
+	  font-weight: bold;
+	  font-size: 1.5vw;
+	  text-align: center;
+}
+
+p.att {
+	color: red;
+}
+
+table, td, th {
+	border-collapse: collapse;
+	font-size: 0.9vw;
+	max-width: 90%;
+	padding: 20px;
+	margin: auto;
+}
+table.cont,tr.cont,td.cont,th.cont{
+	border: solid darkblue 3px;
+}
+
+td.conta {
+	padding-right: 100px;
+	padding-left: 100px;
+}
+
+section.course {
+	padding-bottom: 20px;
+}
+
+section.contact {
+	padding-bottom: 20px;
+}
+
+div.a {
+	margin-left: 800px;
+	position: absolute;
+	bottom: -1677px;
+}
+
+p.a {
+	margin-left: 200px;
+	margin-bottom: 20px;
+}
+
+h2 {
+      position: absolute;
+      top: 40px;
+}
+
+h1 {
+      color: darkblue;
+      border-bottom: solid darkblue 5px;
+      padding-left: 5px;
+      font-family: copperplate gothic light;
+	  text-align: center;
+}
+
+#demoA {
+      text-align: center;
+}
+
+section.buttons {
+	background-color: #FFFFFF80;
+    text-align: center;
+	margin-top: -25%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 8px;
+}
+
+div.logobg {
+	background-image: url("assets/BSF Logo.png");
+	background-size: 30% 70%;
+	background-repeat: no-repeat;
+	background-position-y: center; 
+    background-position-x: 20%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	Padding-top: 10%;
+	Padding-Bottom: 30%; 
+}
+
+section.MVH {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+div.MVH, section.HVH {
+	position: absolute;
+	left: 50%;
+	right: 20%;
+}
+
+button {
+	color: darkblue;
+	background-color: white;
+	border: solid darkblue 1px;
+    font-family: copperplate gothic light;
+	padding: 10px;
+	font-size: 1vw;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+button:active {
+	color: red;
+	background-color: transparent;
+	border: solid darkblue 1px;
+    font-family: copperplate gothic light;
+}
+
+button:hover {
+	color: red;
+	background-color: white;
+	border: solid darkblue 1px;
+    font-family: copperplate gothic light;
+}
+
+button:focus {
+	color: red;
+	background-color: white;
+	border: solid darkblue 1px;
+    font-family: copperplate gothic light;
+}
+
+button {
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+a {
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.nav {
+  height: 100%;
+  width: 10%;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(5px);
+  border-right: solid white 1px;
+  overflow-x: hidden;
+  padding-top: 20px;
+  padding-bottom: 500px;
+  margin-bottom: 6.25%;
+}
+
+.nav a {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 2%;
+  padding: 10px;
+  border-bottom: solid darkblue 2px;
+  text-decoration: none;
+  font-size: 1.2vw;
+  color: darkblue;
+  display: block;
+}
+
+.nav a:hover {
+  border-bottom: solid red 2px;
+  color: red;
+}
+
+.nav a:steady {
+  border-bottom: solid red 2px;
+  color: red;
+}
+
+.fot a:hover {
+  color: red;
+}
